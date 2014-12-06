@@ -12,17 +12,17 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: youmu178
 
 description: Stylish Jekyll Theme
 author:
   name: youmu178
   email: youmu178@sina.com
   github: youmu178
-  twitter: dbtek
-  pinterest: asd123
-  linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  twitter: 
+  pinterest: 
+  linkedin: 
+  bio: 直到世界尽头
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
