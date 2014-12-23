@@ -4,7 +4,7 @@ category: android-opensource
 title: Android自动滚动轮播循环的ViewPager
 description: ""
 modified: 2014-03-06
-tags: [android]
+tags: [ViewPager]
 comments: true
 share: true
 

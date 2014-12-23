@@ -4,7 +4,7 @@ category: android-development
 title: MaterialDesignCenter
 description: ""
 modified: 2014-12-23
-tags: [android]
+tags: [MaterialDesign]
 comments: true
 share: true
 image:

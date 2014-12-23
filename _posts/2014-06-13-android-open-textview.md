@@ -4,7 +4,7 @@ category: android-development
 title: TextView开源
 description: ""
 modified: 2014-06-13
-tags: [android]
+tags: [TextView]
 comments: true
 share: true
 image:

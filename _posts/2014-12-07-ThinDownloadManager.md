@@ -4,7 +4,7 @@ category: android-development
 title: ThinDownloadManager
 description: ""
 modified: 2014-12-07
-tags: [android]
+tags: [Download]
 comments: true
 share: true
 image:

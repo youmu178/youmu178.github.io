@@ -4,7 +4,7 @@ category: android-development
 title: NineOldAndroids动画库
 description: ""
 modified: 2014-05-13
-tags: [android]
+tags: [animation]
 comments: true
 share: true
 image:

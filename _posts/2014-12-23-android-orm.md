@@ -4,7 +4,7 @@ category: android-development
 title: 数据库映射优秀库
 description: ""
 modified: 2014-12-23
-tags: [android]
+tags: [orm]
 comments: true
 share: true
 image:
