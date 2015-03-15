@@ -18,4 +18,8 @@ comments: true
 
 [LitePal](https://github.com/LitePalFramework/LitePal)
 
-[realm](http://realm.io/news/realm-for-android/)
+[Realm](http://realm.io/news/realm-for-android/)
+
+[Sugar ORM](http://satyan.github.io/sugar/index.html) 
+
+[RushOrm](http://www.rushorm.com/)
