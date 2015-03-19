@@ -6,14 +6,14 @@ permalink: rss.xml
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-    <title>曾经不知你好</title>
-    <link href="http://liyouhai.com/rss.xml" rel="self"/>
-    <link href="http://liyouhai.com/"/>
+    <title>youmu178</title>
+    <link href="http://youmu178.com/rss.xml" rel="self"/>
+    <link href="http://youmu178.com/"/>
     <updated>{{ site.time | date_to_xmlschema }}</updated>
-    <id>http://liyouhai.com/</id>
+    <id>http://youmu178.com/</id>
     <author>
-        <name>liyouhai</name>
-        <email>liyouhai@vip.qq.com</email>
+        <name>youmu178</name>
+        <email>youzh178@gmail.com</email>
     </author>
 
     {% for post in site.posts %}
