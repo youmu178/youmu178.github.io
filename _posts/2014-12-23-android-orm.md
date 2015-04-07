@@ -22,4 +22,6 @@ comments: true
 
 [Sugar ORM](http://satyan.github.io/sugar/index.html) 
 
-[RushOrm](http://www.rushorm.com/)
+[RushOrm](http://www.rushorm.com/) 
+
+[Sprinkles](https://github.com/emilsjolander/sprinkles)
