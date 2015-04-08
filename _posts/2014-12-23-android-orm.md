@@ -24,4 +24,8 @@ comments: true
 
 [RushOrm](http://www.rushorm.com/) 
 
-[Sprinkles](https://github.com/emilsjolander/sprinkles)
+[Sprinkles](https://github.com/emilsjolander/sprinkles) 
+
+[SnappyDB](http://www.race604.com/snappydb-nosql/) 
+
+[SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL)

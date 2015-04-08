@@ -26,11 +26,12 @@ comments: true
     public static <T> List<T> getList(String json, Class<T> clasz) {
 		 return mGson.fromJson(json, new TypeToken<List<T>>() {}.getType());
 	} 
+	
  *  经鲍永章同学Help me，得以解决
  * [stackoverflow](http://stackoverflow.com/questions/14139437/java-type-generic-as-argument-for-gson) 
  * 具体方法如下：
-> 
-  public static <T> List<T> getList(String json, Class<T> clasz) {
+ 
+> public static <T> List<T> getList(String json, Class<T> clasz) {
 		return mGson.fromJson(json, new ListOfSomething<T>(clasz));
 	} 
 	
