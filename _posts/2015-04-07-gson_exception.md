@@ -31,11 +31,14 @@ comments: true
  * [stackoverflow](http://stackoverflow.com/questions/14139437/java-type-generic-as-argument-for-gson) 
  * 具体方法如下：
  
-> public static <T> List<T> getList(String json, Class<T> clasz) {
-		return mGson.fromJson(json, new ListOfSomething<T>(clasz));
-	} 
-	
-	static class ListOfSomething<T> implements ParameterizedType {
+> 
+
+ `public static <T> List<T> getList(String json, Class<T> clasz) {
+	return mGson.fromJson(json, new ListOfSomething<T>(clasz));
+ }
+ `
+
+	`static class ListOfSomething<T> implements ParameterizedType {
 
 		private Class<?> wrapped;
 
