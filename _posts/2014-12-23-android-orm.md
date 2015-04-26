@@ -28,4 +28,6 @@ comments: true
 
 [SnappyDB](http://www.race604.com/snappydb-nosql/) 
 
-[SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL)
+[SimpleNoSQL](https://github.com/Jearil/SimpleNoSQL) 
+
+[squidb](https://github.com/yahoo/squidb)
