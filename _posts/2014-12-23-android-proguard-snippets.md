@@ -4,7 +4,7 @@ category: android-development
 title: android-proguard-snippets
 description: ""
 modified: 2014-12-23
-tags: [android]
+tags: [proguard]
 comments: true
 share: true
 image:
