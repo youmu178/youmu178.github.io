@@ -16,6 +16,7 @@ comments: true
 
 ### 用到了一库，混淆的时候编译会出问题，特此写下我用到过的混淆代码
 - Fragement
+
 ```
 #如果引用了v4或者v7包
 # Keep the support library
@@ -26,6 +27,7 @@ comments: true
 -keep interface android.support.v7.** { *; }
 ```
 - ButterKnife 6.0
+
 ```
     -keep class butterknife.** { *; }
     -dontwarn butterknife.internal.**
@@ -38,6 +40,7 @@ comments: true
     }
 ```
 -ButterKnife 7.0
+
 ```
 -keep class butterknife.** { *; }
 -dontwarn butterknife.internal.**
@@ -50,12 +53,14 @@ comments: true
 }
 ```
 - ActiveAndroid
+
 ```   
  -libraryjars libs/activeandroid.jar
  -dontwarn com.activeandroid.**
  -keep class com.activeandroid.** {*;}
 ```
 - EventBus
+
 ```
    -keepclassmembers class ** {
        public void onEvent*(**);
@@ -66,6 +71,7 @@ comments: true
     }
 ```
 - Gson
+
 ```
     ## GSON 2.2.4 specific rules ##
     # Gson uses generic type information stored in a class file when working with fields. Proguard
@@ -80,6 +86,7 @@ comments: true
     -keep class com.sunloto.shandong.bean.** { *; }
 ```
 - Retrofit
+
 ```
     -dontwarn retrofit.**
     -keep class retrofit.** { *; }
@@ -87,10 +94,12 @@ comments: true
     -keepattributes Exceptions
 ```
 - Picasso
+
 ```
   -dontwarn com.squareup.okhttp.**
 ```
 - pingyin4j
+
 ```
     -dontwarn net.soureceforge.pinyin4j.**
     -dontwarn demo.**
@@ -99,12 +108,14 @@ comments: true
     -keep class demo.** { *;}
 ```
 - 华为push
+
 ```
     -libraryjars libs/CloudPush_SDK_V2509_hi.jar
     -dontwarn com.huawei.**
     -keep class com.huawei.** {*;}
 ```
 - 友盟统计
+
 ```
    -keepclassmembers class * {
         public <init>(org.json.JSONObject);
@@ -118,6 +129,7 @@ comments: true
     }
 ```
 - 友盟自动更新
+
 ```
     -keep public class [您的应用包名].R$*{
        public static final int *;
@@ -133,6 +145,7 @@ comments: true
     -keep class com.umeng.** { *; }
 ```
 - 友盟用户反馈
+
 ```
     -keepclassmembers class * {
         public <init>(org.json.JSONObject);
@@ -143,6 +156,7 @@ comments: true
     }
 ```
 - 友盟消息推送
+
 ```
     -dontshrink
     -keep,allowshrinking class com.umeng.message.* {
@@ -168,11 +182,13 @@ comments: true
     }
 ```
 - 极光推送
+
 ```
 -dontwarn cn.jpush.**
 -keep class cn.jpush.** { *; }
 ```
 - 其他
+
 ```
 # 源文件和行号的信息不混淆
 -keepattributes SourceFile,LineNumberTable
