@@ -9,8 +9,8 @@ comments: true
 share: true
 image:
   feature: abstract-2.jpg
-  credit: 
-  creditlink: 
+  credit:
+  creditlink:
 comments: true
 ---
 

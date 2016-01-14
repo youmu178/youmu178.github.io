@@ -9,8 +9,8 @@ comments: true
 share: true
 image:
   feature: abstract-2.jpg
-  credit: 
-  creditlink: 
+  credit:
+  creditlink:
 comments: true
 ---
 
@@ -19,7 +19,9 @@ comments: true
 - 用loadDataWithBaseURL加载
 
 ----------
-    `	public static String htmlConvert(Context ctx) {
+
+```
+public static String htmlConvert(Context ctx) {
 		StringBuilder sb = null;
 		BufferedReader br = null;
 		try {
@@ -39,11 +41,15 @@ comments: true
 			}
 		}
 		return sb.toString();
-	}`
+	}
+  ```
 
 ----------
 
 
 - 用WebView加载
 
-    `webView.loadDataWithBaseURL(null, html, "text/html", "utf-8", null);`
+```
+webView.loadDataWithBaseURL(null, html, "text/html", "utf-8", null);`
+
+```
